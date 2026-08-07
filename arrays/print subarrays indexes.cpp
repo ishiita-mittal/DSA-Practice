@@ -1,18 +1,15 @@
 #include <iostream>
 using namespace std;
 
-  void printSubArr(int *arr, int size) {
+  void printSubArr(int arr[], int size) {
      cout<<"Starting and Ending indexes: "<<endl;
       for(int start=0; start<size; start++) {
          for(int end=start; end<size; end++) {
-              for(int i=start; i<=end; i++) {
-              cout<<arr[i]<<" ";
-             }
-               cout<<endl;
+             cout<<"["<<start<<","<<end<<"] ";
          }
-               cout<<endl;
+         cout<<endl;
      }
-}
+ }
                     
 int main() {
        int arr[]={1, 2, 3, 4, 5};
