@@ -1,6 +1,7 @@
+//time complexity: O(n+k)
+//space complexity: O(n+k)
 #include <iostream>
 using namespace std;
-
 void countSort(int *arr, int size) {
     int minVal=INT32_MAX, maxVal=INT32_MIN;
     int freq[100000];
