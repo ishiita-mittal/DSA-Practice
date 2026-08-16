@@ -1,3 +1,6 @@
+//time complexity: O(n²)
+//space complexity: O(1)
+
 #include <iostream>
 #include<algorithm>
 using namespace std;
