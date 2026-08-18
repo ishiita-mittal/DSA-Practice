@@ -11,7 +11,7 @@ using namespace std;
               if(sum<0) {
                 sum=0;
               }
-        }
+           }
         cout<<endl;
         cout<<"Maximum sum is : "<<maxSum<<endl;
      }

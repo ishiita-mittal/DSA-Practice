@@ -9,7 +9,7 @@ using namespace std;
         cout<<arr[i]<<" ";
     }
     cout<<endl;
- }
+}
 
  void bubble(int *arr, int size) {
        bool isSwap=false;
