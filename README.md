@@ -4,4 +4,4 @@
 ## 4 Trying on leetcode problems and developing logic.
 ## 5 learning more about arrays.
 ## 6 doing problem solving on lc.
-## 7 starteD 2D arrays.
+## 7 Started 2D arrays.
