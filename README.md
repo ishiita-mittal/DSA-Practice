@@ -5,3 +5,4 @@
 ## 5 learning more about arrays.
 ## 6 doing problem solving on lc.
 ## 7 Started 2D arrays.
+## 8 revising arrays.
