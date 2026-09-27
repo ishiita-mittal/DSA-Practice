@@ -13,6 +13,15 @@ void copyArr(int *arr, int size) {
     }
 }
 
+void arrCopy(int *arr, int size) {
+    int temp[size];
+    for(int i=size-1; i>=0; i--) {
+         for(int j=0; j<size; j++) {
+         temp[j]=arr[i];
+         }
+     }
+} 
+
 void printArr(int *arr, int size) {
     for(int i=0; i<size; i++) {
         cout<<arr[i]<<" ";
@@ -23,7 +32,7 @@ void printArr(int *arr, int size) {
 int main() {
       int arr[]={1,2,3,4,5};
       int size=sizeof(arr)/sizeof(int);
-      copyArr(arr, size);
+      arrCopy(arr, size);
       printArr(arr, size);
 
     return 0;
